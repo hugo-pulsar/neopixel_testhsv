@@ -8,7 +8,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 let H = 0
 let fade = 0
-let strip = neopixel.create(DigitalPin.P2, 8, NeoPixelMode.RGB)
+let strip = neopixel.create(DigitalPin.P0, 8, NeoPixelMode.RGB)
 basic.forever(function () {
     for (let índice = 0; índice <= 7; índice++) {
         strip.clear()
